@@ -85,7 +85,7 @@ PREDICT
 clicks
 
 ```
-![test_5](assets/Screenshot _5.png)
+![test_5](assets/Screenshot_5.png)
 
 -----
 
@@ -93,4 +93,3 @@ clicks
 
 ## Result
 The Google_search integration has been  tested, and some test cases are working as Failing.
-
