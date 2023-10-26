@@ -43,7 +43,7 @@ ORDER BY clicks
 ```
 **Screeshot Result: Query Failed**
 
-![test_2](assets/Screenshot_3.png)
+![test_2](assets/Screenshot _3.png)
 
 -----
 
@@ -56,7 +56,7 @@ VALUES ('https://www.mindsdb.com', 'https://www.mindsdb.com/sitemap.xml')
 ```
 **Screeshot Result: Query Failed**
 
-![test_3](assets/Screenshot_2.png)
+![test_3](assets/Screenshot _2.png)
 
 -----
 
@@ -85,7 +85,7 @@ PREDICT
 clicks
 
 ```
-![test_5](assets/Screenshot_5.png)
+![test_5](assets/Screenshot _5.png)
 
 -----
 
