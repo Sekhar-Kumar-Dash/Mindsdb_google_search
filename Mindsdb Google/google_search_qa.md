@@ -25,36 +25,23 @@ parameters = {
 
 -----
 
-### 1. This creates a database called google_search_db. 
-
-```
-CREATE
-DATABASE my_Search
-WITH  ENGINE = 'google_search',
-parameters = {
-    
-};    
-
-
-```
-**Screeshot Result: Query successfull**
-
-![test_1](assets/Screenshot_1.png)
-
------
 ### 2. you can get traffic data for a specific site
 
 ```
-CREATE
-DATABASE my_Search
-WITH  ENGINE = 'google_search',
-parameters = {
-    
-};    
+SELECT clicks
+FROM my_console.Analytics
+WHERE siteUrl = 'https://www.mindsdb.com'
+  AND startDate = '2020-10-01'
+  AND endDate = '2020-10-31'
+  AND dimensions = 'query'
+  AND type = 'web'
+GROUP BY query
+ORDER BY clicks
+   
 
 
 ```
-**Screeshot Result: Query successfull**
+**Screeshot Result: Query Failed**
 
 ![test_2](assets/Screenshot_3.png)
 
@@ -106,3 +93,4 @@ clicks
 
 ## Result
 The Google_search integration has been  tested, and some test cases are working as Failing.
+
